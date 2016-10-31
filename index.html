@@ -3,7 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/ie9.css">
+    <!--<link rel="stylesheet" href="css/style.css">-->
+    <!--[if lte IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/ie9.css" />
+    <![endif]-->
     <title>Pingbuller</title>
 </head>
 <body>
@@ -43,7 +47,7 @@
     </div>
     <div class="blurbs-wrapper">
         <div class="blurbs">
-            <section class="blurbs__section">
+            <section class="blurbs__section blurbs__section_firste">
                 <a href="#" class="blurbs__spliter"></a>
                 <div class="blurbs__block">
                     <h3 class="blurbs__title">about our company</h3>
@@ -73,11 +77,11 @@
         <main class="main">
             <section class="main__section">
                 <a href="#" class="main__avatar">&nbsp;</a>
-                    <div class="main__container">
-                        <h3 class="main__title">pingbuller</h3>
-                        <h3 class="main__color">starts here</h3>
-                        <p class="main__content">“Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque pulvinar urna risus, mattis pulvinar bibendum in, venenatis quis neque. Mauris nec metus ultricies erat consequat dignissim non eu nisl.”</p>
-                    </div>
+                <div class="main__container">
+                    <h3 class="main__title">pingbuller</h3>
+                    <h3 class="main__color">starts here</h3>
+                    <p class="main__content">“Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque pulvinar urna risus, mattis pulvinar bibendum in, venenatis quis neque. Mauris nec metus ultricies erat consequat dignissim non eu nisl.”</p>
+                </div>
             </section>
             <article class="main__blog article">
                 <h2 class="article__title">recent updates</h2>
@@ -127,9 +131,9 @@
     </div>
     <div class="news-wrapper">
         <div class="news">
-            <section class="news__section">
+            <section class="news__section newa__section_ie">
                 <h2 class="news__title news__title_hidden">news categories</h2>
-                <h2 class="news__vision-p">pingbull</h2>
+                <h2 class="news__vision-p">pingbull<span class="news__vision-p_color">er</span></h2>
                 <p class="news__content news__content_p"><span class="news__title_copyrite">Copyright 2013, Pingbull AS<br></span>Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque pulvinar. Quisque urna risus, mattis pulvinar bibendum in, venenatis quis neque. Mauris nec metus ultricies erat consequat dignissim non eu nisl. Quisque libero tellus, pharetra et eleifend id, interdum elementum arcu. Suspendisse quis mauris non ligula rutrum faucibus eu quis odio. Phasellus eu lobortis odio. In hac habitasse platea dictumst. Proin vestibulum turpis at mauris aliquam non euismod lorem euismod. Aenean dapibus ultricies enim, eget vulputate leo feugiat non.</p>
             </section>
             <section class="news__section">
