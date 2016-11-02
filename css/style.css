@@ -665,6 +665,7 @@ h2, h3, h4, h5 {
             line-height: 22px;
             text-shadow: 2px 2px 2px  rgba(0, 0, 0, 0.4);
             border: none;
+            border-bottom: 2px solid transparent;
         }
 
         .footer .menu__link:hover,
@@ -740,6 +741,7 @@ h2, h3, h4, h5 {
             line-height: 24px;
             text-shadow: 2px 2px 2px  rgba(0, 0, 0, 0.4);
             border: none;
+            border-bottom: 2px solid transparent;
         }
 
         .menu__link:hover,
