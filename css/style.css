@@ -1201,11 +1201,16 @@ h2, h3, h4, h5 {
         }
 
         .news__vision-p::after {
-            content: "er";
+            display: none;
             color: #b9b9b9;
+            content: "er";
             font-size: 48px;
             text-transform: uppercase;
             text-shadow: 1px 1px 0 #fff;
+        }
+
+        .news__vision-p_color {
+            color: #b9b9b9;
         }
 
         .news__vision-r {
@@ -1241,9 +1246,12 @@ h2, h3, h4, h5 {
         height: 115px;
     }
 
-    .footer,
-    .footer .menu {
+    .footer {
         width: 960px;
+    }
+
+    .footer .menu {
+        width: 760px;
     }
 
     .footer .menu__hidden {
@@ -1263,7 +1271,7 @@ h2, h3, h4, h5 {
 
     .footer__content {
         width: 200px;
-        margin-left: 87px;
+        margin-left: 0;
         padding-top: 52px;
     }
 
